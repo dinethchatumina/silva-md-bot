@@ -8,13 +8,13 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
     PREFIX: process.env.PREFIX || ".",
-    BOT_NAME: process.env.BOT_NAME || "✦ Silva ✦ MD ✦",
+    BOT_NAME: process.env.BOT_NAME || "✦ CHATU ✦ MD ✦",
     AUTO_STATUS_REACT: convertToBool(process.env.AUTO_STATUS_REACT, "true"),
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
     DELETE_LINKS: convertToBool(process.env.DELETE_LINKS, "false"),
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254700143167",
-    OWNER_NAME: process.env.OWNER_NAME || "✦ Silva ✦ MD ✦",
-    DESCRIPTION: process.env.DESCRIPTION || "*© ✦ Silva ✦ MD ✦*",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "94741336839",
+    OWNER_NAME: process.env.OWNER_NAME || "✦ CHATU ✦ MD ✦",
+    DESCRIPTION: process.env.DESCRIPTION || "*© ✦ CHATU✦ MD ✦*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
     LIVE_MSG: process.env.LIVE_MSG || "> SILVA MD IS ACTIVE ⚡",
     READ_MESSAGE: convertToBool(process.env.READ_MESSAGE, "false"),
@@ -35,4 +35,5 @@ module.exports = {
     // Debug Settings
     DEBUG: convertToBool(process.env.DEBUG, "true")
 };
+
 
